@@ -4,7 +4,7 @@ provider "aws" {
   secret_key = "SECRETKEYXXXXXXXXXXX"
 }
 
-/*
+
 module "network" {
 source = "../modules/network"
   vpc_name = "module-vpc"
@@ -12,4 +12,3 @@ source = "../modules/network"
   subnet_name = "module-subnet1"
   subnet_cidr_block = "120.12.1.0/24"
 }
-*/
